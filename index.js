@@ -1,18 +1,10 @@
-let marks={
-  harry:90,
-  chintu:99,
-  varsha:99
-  
+function avg(a,b){
+  let avg=(a+b)/2;
+  return avg;
 }
-for(let i=0;i<Object.keys(marks).length;i++){
-  console.log(Object.keys(marks)[i]+" : "+marks[Object.keys(marks)[i]]);
-}
-for(let i in marks){
-  console.log(i);
+let sum=(a,b)=>{
+  return a*b
 }
 
-let num=5;
-let n;
-while(n!=num){
- n= prompt("enter the number")
-}
+console.log("aveage = "+avg(2,4));
+console.log(sum(5,4))
